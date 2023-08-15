@@ -61,6 +61,40 @@ to check remote url
 to know what new aded 
 '''git diff'''
 
+To setup ci/cd pipline in heroku we need three information
+1. Heroku Email
+2. Heroku_Api_Key
+3. Heroku_app_name  
+
+Build Docker image.
+'''
+docker -build -t <image_name>:<tagname> .
+'''
+
+Note :- image name for docker musr be in lowercase
+
+To list docker images
+'''
+docker images
+'''
+To run docker image
+'''
+docker run -p 5000:5000 -e PORT=5000 fc5ef00ca76b 
+'''
+To check running container in docker
+
+'''
+docker ps
+'''
+To stop docker  container.
+'''docker stop container_id'''
+
+
+
+
+
+
+
 
 
 
