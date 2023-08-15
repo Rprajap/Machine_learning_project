@@ -5,6 +5,8 @@ Software & Account Requirements:
 2. [Heroku Account]
 3. [VS code]
 4. [Git cli]
+5. Git Document [https://git-scm.com/doc]
+
 
 
 Creating a conda enviroment
@@ -47,8 +49,18 @@ to create a version/commit all change by git
 '''
 git commit -m "message"
 '''
-
 whenever we commit a changes it create a vearsion of it
+
+to send version / changes to github
+''' git push origin main'''
+
+
+to check remote url
+'''git remote -v '''
+
+to know what new aded 
+'''git diff'''
+
 
 
 
