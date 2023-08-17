@@ -3,6 +3,7 @@ gunicorn
 sklearn
 pandas
 numpy
+logging
 
 
 
