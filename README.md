@@ -93,6 +93,12 @@ To stop docker  container.
 python setup.py install
 '''
 
+install ipynbkernel
+
+'''
+pip install ipykernel  
+'''
+
 
 
 
